@@ -6,3 +6,14 @@
   box-sizing: border-box;
   font-family: Poppins;
 }
+
+#root {
+  --royal: #03256cff;
+  --persian: #2541b2ff;
+  --green-blue: #1768acff;
+  --aero: #06bee1ff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

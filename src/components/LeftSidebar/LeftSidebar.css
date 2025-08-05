@@ -1,0 +1,99 @@
+.ls {
+    background-color: var(--royal);
+    color: white;
+    height: 75vh;
+}
+
+.ls-top {
+    padding: 20px;
+}
+
+.ls-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ls-nav .logo {
+    max-width: 140px;
+}
+
+.ls-nav .menu img {
+    max-height: 30px;
+    opacity: .6;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.ls-nav .menu img:hover {
+    opacity: 1;
+}
+
+.ls-search {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    margin-top: 20px;
+}
+
+.ls-search img {
+    width: 16px;
+}
+
+.ls-search input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white ;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.ls-search input::placeholder {
+    color: lightgrey;
+}
+
+.ls-list {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    overflow-y: scroll;
+}
+
+.friends img {
+    width: 35px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.friends {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: .2s ease;
+}
+
+.friends div {
+    display: flex;
+    flex-direction: column;
+}
+
+.friends span {
+    color: #9f9f9f;
+    font: 11px;
+    transition: .2s ease-in-out;
+}
+
+.friends:hover span {
+    color: white;
+}
+
+.friends:hover {
+    background-color: var(--persian);
+}

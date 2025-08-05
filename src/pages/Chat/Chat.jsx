@@ -1,9 +1,18 @@
+import Chatbox from '../../components/Chatbox/Chatbox'
+import LeftSidebar from '../../components/LeftSidebar/LeftSidebar'
+import RightSidebar from '../../components/RightSidebar/RightSidebar'
 import './Chat.css'
 
 const Chat = () => {
   return (
-    <div>
-      CHAT PAGE
+    <div className='chat' >
+
+        <div className="chat-ctn">
+            <LeftSidebar/>
+            <Chatbox/>
+            <RightSidebar/>
+        </div>
+      
     </div>
   )
 }

@@ -1,6 +1,6 @@
 .login {
     min-height: 100vh;
-    background: url(./background.png) no-repeat;
+    background: linear-gradient(var(--green-blue) 15%, var(--aero) 50%, var(--royal) 95%);
     background-size: cover;
     display: flex;
     align-items: center;

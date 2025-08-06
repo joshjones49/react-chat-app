@@ -9,7 +9,7 @@ const ProfileUpdate = () => {
     const [image, setImage] = useState(false)
 
   return (
-    <div className='profile' >
+    <div className='profile pages' >
       <div className="profile-ctn">
         <form>
             <h3>Profile Details</h3>

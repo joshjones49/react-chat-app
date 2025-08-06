@@ -3,7 +3,7 @@ import './Login.css'
 import assets from '../../assets/assets'
 import { useState } from 'react'
 
-import { signup } from '../../config/firebase.mjs'
+import { signup, login } from '../../config/firebase.mjs'
 
 const Login = () => {
 
@@ -17,11 +17,13 @@ const Login = () => {
 
         if(currentState === "Sign up") {
             signup(username, email, password)
+        } else {
+            login(email, password)
         }
     }
 
   return (
-    <div className='login' >
+    <div className='login pages' >
 
         <img src={assets.logo_big} alt="" className="logo" />
 

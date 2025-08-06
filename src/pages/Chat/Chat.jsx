@@ -5,7 +5,7 @@ import './Chat.css'
 
 const Chat = () => {
   return (
-    <div className='chat' >
+    <div className='chat pages' >
 
         <div className="chat-ctn">
             <LeftSidebar/>

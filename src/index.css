@@ -21,3 +21,19 @@
 img.dot {
   width: 15px !important;
 }
+
+/* .pages {
+  animation-name: fadeIn;
+  animation-duration: .8s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: .25;
+  }
+
+  to {
+    opacity: 1;
+  }
+} */
